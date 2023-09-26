@@ -20,12 +20,25 @@
 
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-discription {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 /*-- Nave related Css --*/
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0 164px;
 }
 
 .nav-title {
@@ -53,16 +66,59 @@ nav a {
 /* Header related style */
 .header {
     background-color: #fff8f3;
+    background-image: url(../imgs/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
 }
 
 .banner .portfolio-pic {
 
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+
+}
+
+.banner-contant {
+    max-width: 500px;
+
+
+}
+
+.banner-tittle {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-discription {
+    margin: 20px 0 30px 0;
+}
+
+/* Main section style */
+
+
+/* About section style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    border-color: #fff8f3;
+    margin-top: 130px;
+    background-color: #fff8f3;
+}
+
+.about-information-container {
+    display: flex;
 }
